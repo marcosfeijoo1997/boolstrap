@@ -272,7 +272,7 @@ font-family:none;}
     background-color: rgba(255, 255, 255, 0.357);
     margin: 0px;
     padding: 0px;
-   
+    transform: skewX(-20deg);
     
 }
 .titulo3 p
@@ -304,6 +304,8 @@ font-family:none;}
     flex-wrap: wrap;
     background-color: rgba(255, 255, 255, 0.515);
 }
+.cartelera img:hover {
+    transform: scale(1.35);}
 
 /*menu*/
 
@@ -341,7 +343,7 @@ top: -30px;
 .menu li a:hover{
     background-color: rgb(40, 66, 155);
     text-decoration: underline;
-}
+
 .menu li img 
 {border-radius: 100%;
 width: 40%;
